@@ -311,14 +311,12 @@ textarea,
   padding: 1.5rem;
   width: calc(100% - var(--margin-inline) * 2);
   max-width: 28.125rem;
-  position: absolute;
+  position: fixed;
   top: -10rem;
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--clr-green-900);
   border-radius: 0.75rem;
-  /* transition: all 750ms ease-in-out;
-  transition-behavior: allow-discrete; */
   display: none;
 }
 
